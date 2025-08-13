@@ -11,7 +11,7 @@
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem rem, ex molestias accusantium, deserunt non odio doloribus   repellendus   ossimus praesentium eum repellat molestiae id veritatis, quod esse earum quaerat?
            </div>
            <form @submit.prevent="sendEmail" class="mt-10 flex gap-2 w-full md:w-md">
-             <input type="email" v-model="email" placeholder="Email Address" class=" md:w-4/6 font-semibold bg-white rounded-sm px-6 py-4 text-black outline-0">
+             <input type="email" v-model="user_repecient" placeholder="Email Address" class=" md:w-4/6 font-semibold bg-white rounded-sm px-6 py-4 text-black outline-0">
              <button type="submit" class=" md:w-2/6 p-1 sm:text-xs md:text-base truncate md:p-2 bg-blue-300 rounded-sm font-bold cursor-pointer">Connect with me</button>
            </form>
         </div>
@@ -32,19 +32,21 @@
 export default {
   data(){
     return{
-      
-      email:"adexvictor94@gmail.com",
+     myEmail:'adexvictor94@gmail.com',
+     user_repecient:"",
     }
   },
   methods:{
     sendEmail() {
-     if (this.email) {
-      const encodedSubject = encodeURIComponent(this.subject);
-      const encodedBody = encodeURIComponent(this.body);
-      window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${this.email}&su=${encodedSubject}&body=${encodedBody}`;
-    } else {
-      alert('Enter a valid email please')
-     }
+     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      if (emailRegex.test(this.user_repecient)) {
+        const subject = 'Website Development';
+        const body = 'Hi , my name is (name) and would like you to create me (details)'; 
+        window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${this.myEmail}&su=${subject}&body=${body}`;
+      } else {
+        alert('Please enter a valid email address');
+      }
+
   }
   }
    
