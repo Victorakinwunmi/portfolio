@@ -17,7 +17,7 @@
         </div>
         <div class="w-full lg:w-2/4">
           <div class="rounded-full mt-2 md:mt-6 lg:mt-0 border-t-2 border-white overflow-hidden flex items-center bg-gray-00">
-            <img src="/assets/image/adex.png" class="w-full mt-12"/>
+            <img src="/image/adex.png" class="w-full mt-12"/>
           </div>
         </div>
       </div>
