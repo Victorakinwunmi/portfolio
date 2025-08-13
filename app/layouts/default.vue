@@ -7,7 +7,7 @@
           <template #hamburgermenuopen>
             <button>
               <img
-                src="/assets/icon/menu.svg"
+                src="~/assets/icon/menu.svg"
                 class="w-8 h-8"
               />
             </button>
@@ -15,7 +15,7 @@
           <template #hamburgermenuclose>
             <button>
               <img
-                src="/assets/icon/close.svg"
+                src="~/assets/icon/close.svg"
                 class="w-8 h-8"
               />
             </button>
@@ -36,7 +36,7 @@
               <template #ws_btn>
                     <button>
                         <img
-                            src="/assets/icon/whatsapp.svg"
+                            src="~/assets/icon/whatsapp.svg"
                             class="w-8 h-8 cursor-pointer"
                         />
                     </button>
@@ -44,7 +44,7 @@
               <template #email_btn>
                     <button>
                         <img
-                            src="/assets/icon/gmail.svg"
+                            src="~/assets/icon/gmail.svg"
                             class="w-8 h-8 cursor-pointer"
                         />
                     </button>
