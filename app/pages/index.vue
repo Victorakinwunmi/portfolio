@@ -1,14 +1,13 @@
 <template>
    <div class="main bg-gradient-to-t from-black to-gray-900 ">
-      <div class="px-4 md:px-6 lg:px-0 pt-32 gap-2 lg:pt-40 max-w-8xl block items-center lg:flex">
+      <div class="px-4 md:px-6 lg:px-0 pt-32 gap-4 lg:pt-40 max-w-8xl block items-center lg:flex">
         <div class="w-full lg:w-2/4 text-white type">
            <p class="text-xl lg:text-4xl font-bold">HI THERE , I'M VICTOR ...</p>
-           <div class="mt-2 w-full lg:w-sm lg:mt-8 text-lg lg:text-4xl">
+           <div class="mt-2 w-full lg:w-sm lg:mt-4 text-lg lg:text-4xl">
              BUILDING <span class="text-blue-300 font-bold">DIGITAL WEBSITE </span>EXPERIENCE
            </div>
            <div class="mt-2 lg:mt-6">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem rem, ex molestias accusantium, deserunt non odio doloribus   repellendus   ossimus praesentium eum repellat molestiae id veritatis, quod esse earum quaerat?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem rem, ex molestias accusantium, deserunt non odio doloribus   repellendus   ossimus praesentium eum repellat molestiae id veritatis, quod esse earum quaerat?
+            I'm a Front-End Developer passionate about building responsive, user-friendly, and visually appealing web applications. With expertise in <span class="text-blue-200 font-bold">Vue.js, JavaScript, HTML, and CSS,</span> I bring ideas to life and deliver high-quality solutions that exceed expectations. I thrive on turning complex problems into simple, intuitive designs that captivate users and drive results. With a keen eye for detail and a commitment to staying up-to-date with the latest trends and technologies, I craft digital experiences that are both functional and beautiful. Let's collaborate to create something amazing!
            </div>
            <form @submit.prevent="sendEmail" class="mt-10 flex gap-2 w-full md:w-md">
              <input type="email" v-model="user_repecient" placeholder="Email Address" class=" md:w-4/6 font-semibold bg-white rounded-sm px-6 py-4 text-black outline-0">
