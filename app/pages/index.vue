@@ -61,7 +61,7 @@
                     </div>
                 </div>
               </div>
-              <div class="w-full mx-auto py-10 md:py-0">
+              <div class="w-full mx-auto py-20 md:py-0">
                 <h1 class="text-gray-900 font-mono mb-4 text-3xl md:text-5xl font-extrabold">What do i help ?</h1>
                 <h1>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi officia necessitatibus sit. Nulla, labore! Officia consequatur teneturte poribus pariatur voluptates soluta suscipit enim voluptatem esse iste omniseaque blanditiis libero!
