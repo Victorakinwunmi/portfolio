@@ -40,24 +40,24 @@
                   v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 zoom-in-75 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }"
                     class="block md:flex border border-gray-300 border-surface shadow-lg my-4 max-w-lg mx-auto items-center rounded-2xl p-8"
                 >
-                    <div class="rounded-full bg-gray-900 mx-auto bg-primary text-white w-16 h-16 flex items-center justify-center">
-                        <i class="pi pi-desktop !text-2xl"></i>
+                    <div class="rounded-full bg-yellow-500 mx-auto bg-primary text-white w-16 h-16 flex items-center justify-center">
+                        <i class="pi pi-mobile !text-2xl"></i>
                     </div>
                     <div class="w-full md:w-3/4">
-                      <div class="text-2xl font-bold text-center lg:text-left text-gray-800 mt-3 md:mt-0">Website design</div>
-                      <div class=" text-center lg:text-left text-gray-800 mt-2">10 projects</div>
+                      <div class="text-2xl font-bold text-center lg:text-left text-gray-800 mt-3 md:mt-0">App design</div>
+                      <div class=" text-center lg:text-left text-gray-800 mt-2">6 projects</div>
                     </div>
                 </div>
                 <div
                   v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 zoom-in-75 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }"
                     class="block md:flex border border-gray-300 border-surface shadow-lg max-w-lg mx-auto items-center rounded-2xl p-8"
                 >
-                    <div class="rounded-full bg-gray-900 mx-auto bg-primary text-white w-16 h-16 flex items-center justify-center">
-                        <i class="pi pi-desktop !text-2xl"></i>
+                    <div class="rounded-full bg-blue-500 mx-auto bg-primary text-white w-16 h-16 flex items-center justify-center">
+                        <i class="pi pi-box !text-2xl"></i>
                     </div>
                     <div class="w-full md:w-3/4">
-                      <div class="text-2xl font-bold text-center lg:text-left text-gray-800 mt-3 md:mt-0">Website design</div>
-                      <div class=" text-center lg:text-left text-gray-800 mt-2">10 projects</div>
+                      <div class="text-2xl font-bold text-center lg:text-left text-gray-800 mt-3 md:mt-0">Brand design</div>
+                      <div class=" text-center lg:text-left text-gray-800 mt-2">15 projects</div>
                     </div>
                 </div>
               </div>
