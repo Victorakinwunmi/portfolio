@@ -23,7 +23,7 @@
         <div class="bg-white text-black py-16 px-8 lg:px-0  ">
          <div class="max-w-8xl">
             <div class="block lg:flex justify-center w-full gap-4">
-              <div class="mx-auto w-full">
+              <div class="mx-auto w-full cursor-pointer">
                 <div
                   v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 zoom-in-75 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }"
                     class="block md:flex border border-gray-300 border-surface shadow-lg max-w-lg mx-auto items-center rounded-2xl p-8"
@@ -70,12 +70,12 @@
                 </h1>
                 <div class="grid mt-10 w-full mx-auto grid-cols-2">
                    <div>
-                    <h1>20+</h1>
-                    <h1>Projects completed</h1>
+                    <h1 class="text-5xl font-black">20+</h1>
+                    <h1 class="mt-2">Projects completed</h1>
                    </div>
                    <div>
-                     <h1>18+</h1>
-                     <h1>Happy clients</h1>
+                     <h1 class="text-5xl font-black">18+</h1>
+                     <h1 class="mt-2">Happy clients</h1>
                    </div>
                 </div>
               </div>
