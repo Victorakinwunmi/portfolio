@@ -61,10 +61,10 @@
                     </div>
                 </div>
               </div>
-              <div class="w-full mx-auto">
-              <h1>What do i help with</h1>
-              <h1>What do i help with</h1>
-              <h1>What do i help with</h1>
+              <div class="w-full mx-auto py-10 md:py-0">
+                <h1 class="text-gray-900 font-mono mb-4 text-3xl md:text-5xl font-extrabold">What do i help ?</h1>
+                <h1>What do i help with</h1>
+                <h1>What do i help with</h1>
               </div>
           </div>
          </div>
