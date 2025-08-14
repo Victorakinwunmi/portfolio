@@ -27,7 +27,7 @@
         </div>
         <div
           :class="is_revealed
-              ? 'block top-14 right-0 w-full h-screen absolute mt-11 bg-gray-200 '
+              ? 'block top-14 right-0 w-full h-screen absolute mt-7 bg-gray-200 '
               : 'hidden bg-gray-800 justify-center p-4 rounded-full lg:flex w-2/6 '
           "
           class=""
