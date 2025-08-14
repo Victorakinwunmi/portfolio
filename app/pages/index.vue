@@ -37,7 +37,7 @@
                     </div>
                 </div>
                 <div
-                  v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 zoom-in-75 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }"
+                  v-animateonscroll="{ enterClass: 'animate-enter fade-in-10 slide-in-from-l-8 animate-duration-1000', leaveClass: 'animate-leave fade-out-0' }"
                     class="block md:flex border border-gray-300 border-surface shadow-lg my-4 max-w-lg mx-auto items-center rounded-2xl p-8"
                 >
                     <div class="rounded-full bg-yellow-500 mx-auto bg-primary text-white w-16 h-16 flex items-center justify-center">
@@ -63,8 +63,21 @@
               </div>
               <div class="w-full mx-auto py-10 md:py-0">
                 <h1 class="text-gray-900 font-mono mb-4 text-3xl md:text-5xl font-extrabold">What do i help ?</h1>
-                <h1>What do i help with</h1>
-                <h1>What do i help with</h1>
+                <h1>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi officia necessitatibus sit. Nulla, labore! Officia consequatur teneturte poribus pariatur voluptates soluta suscipit enim voluptatem esse iste omniseaque blanditiis libero!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi officia necessitatibus sit. Nulla, labore! Officia consequatur teneturte poribus pariatur voluptates soluta suscipit enim voluptatem esse iste omniseaque blanditiis libero!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi officia necessitatibus sit. Nulla, labore! Officia consequatur teneturte poribus pariatur voluptates soluta suscipit enim voluptatem esse iste omniseaque blanditiis libero!
+                </h1>
+                <div class="grid mt-10 w-full mx-auto grid-cols-2">
+                   <div>
+                    <h1>20+</h1>
+                    <h1>Projects completed</h1>
+                   </div>
+                   <div>
+                     <h1>18+</h1>
+                     <h1>Happy clients</h1>
+                   </div>
+                </div>
               </div>
           </div>
          </div>
