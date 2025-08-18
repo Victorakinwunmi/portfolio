@@ -225,10 +225,13 @@ export default {
   border-right: solid 3px white;
   overflow: hidden;
   white-space: nowrap;
-  animation: type 4s steps(21) 1s forwards,blink 0.5s steps(1) infinite;
+  animation: type 10s steps(26) infinite, blink 0.5s step-end infinite alternate;
 }
 @keyframes type {
-  to{width: 25ch;}
+  0% { width: 0 }
+  40% { width: 25ch }   
+  60% { width: 25ch }
+  100% { width: 0 }     
 }
 @keyframes blink {
   from{border-color: transparent;}
