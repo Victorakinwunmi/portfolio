@@ -103,7 +103,7 @@ export default {
         const body = encodeURIComponent(
           `Hi, my name is (your name) and I would like you to create me (details).`
         );
-       window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${this.myEmail}&su=${subject}&body=${body}`;
+       window.location.href = `mailto:${this.myEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       } else {
         alert('Please enter a valid email address');
       }
