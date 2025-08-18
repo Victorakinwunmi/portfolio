@@ -91,7 +91,7 @@
 export default {
   data(){
     return{
-     myEmail:'adexvictor94@gmail.com',
+     myEmail:'adexv05@gmail.com',
      user_repecient:"",
     }
   },
@@ -103,10 +103,7 @@ export default {
         const body = encodeURIComponent(
           `Hi, my name is (your name) and I would like you to create me (details).`
         );
-        window.open(
-          `https://mail.google.com/mail/?view=cm&fs=1&to=${this.myEmail}&su=${subject}&body=${body}`,
-          '_blank'
-        );
+       window.location.href = `https://mail.google.com/mail/?view=cm&fs=1&to=${this.myEmail}&su=${subject}&body=${body}`;
       } else {
         alert('Please enter a valid email address');
       }
