@@ -21,7 +21,15 @@
 
 <script>
 export default {
-
+  data() {
+    return {
+      myEmail: 'adex05@gmail.com',
+      user_repecient: "",
+    }
+  },
+  methods: {
+   
+  }
 }
 </script>
 
