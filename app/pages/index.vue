@@ -96,17 +96,17 @@ export default {
     }
   },
   methods:{
-    sendEmail() {
-      const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-      if (emailRegex.test(this.user_repecient)) {
-        const subject = encodeURIComponent('Website Development');
-        const body = encodeURIComponent(
-          `Hi, my name is (your name) and I would like you to create me (details).`
-        );
-       window.location.href = `mailto:${this.myEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-      } else {
-        alert('Please enter a valid email address');
-      }
+     sendEmail() {
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+        if (emailRegex.test(this.user_repecient)) {
+          const subject = encodeURIComponent('Website Development');
+          const body = encodeURIComponent(`Hi, my name is (name) and I would like you to create me (details).`);
+
+          window.location.href = `mailto:${this.myEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+        } else {
+          alert("Please enter a valid email address");
+        }
     }
   }
    
